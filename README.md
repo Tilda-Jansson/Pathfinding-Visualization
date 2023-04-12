@@ -3,26 +3,26 @@
 This project is a visual demonstration of the A* pathfinding algorithm, which searches for the shortest path between two points in a grid while avoiding obstacles. The visualizer is built using the Pygame library and displays the progress of the algorithm as it explores the grid.
 
 
-##Features
+## Features
 
 * Interactive grid for placing start and end points, as well as obstacles
 * Visual representation of the algorithm's progress as it searches for the shortest path
 * Supports diagonal movement with proper cost calculation
 * Clear and reset functionality for multiple runs
 
-##How to Run
+## How to Run
 
 1. Install the Pygame library: pip install pygame
 2. Run the script: python pathfinding_visualizer.py
 
-##Controls
+## Controls
 
 * Left-click: Place the start point, end point, or obstacles on the grid
 * Right-click: Remove points or obstacles from the grid
 * Spacebar: Run the A* algorithm
 * 'C' key: Clear the grid and reset the visualizer
 
-##Colors
+## Colors
 
 * White: Empty grid cell
 * Pink: Start point
